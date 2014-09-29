@@ -1,0 +1,239 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: white;
+	font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+
+a:hover {
+	color: blue;
+}
+
+h1 {
+	font-family: Helvetica;
+	size: 32px;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+#top {
+    width:100%;
+    background-color: #BFBCB8;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#navigation {
+    width:100%;
+    background-color: #303030;
+    height:55px;
+    text-align:center;
+    padding-top:15px;
+}
+#navigation a {
+    font-size:35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-left:15px;
+    padding-right:15px;
+    color: #BFBCB8;
+    text-decoration:none;
+}
+#navigation a:hover {
+    color: #d60636;
+}
+
+
+#current_price {
+	float: left;
+	margin-left: 0px;
+	position: relative;
+	display: inline;
+
+}
+
+#menu {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	background-color: white;
+}
+
+#about {
+	text-align: center;
+	width: 50%;
+	font-family: serif;
+	font-weight: 100;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px
+}
+
+#total{
+	width:25%;
+	font-family: 'Lato', sans-serif;
+	font-size:30px;
+	color:black;
+	line-height: 3px;
+	text-align:center;
+	background-color:#BFBCB8;
+	float: left;
+	margin-left: 0%;
+	position: static;
+}
+#items {
+	float: right;
+	width:25%;
+	/*border-radius:30%;*/
+	font-family: 'Lato', sans-serif;
+	color:black;
+	line-height: 50px;
+	font-size:14px;
+	text-align:center;
+	background-color:#BFBCB8;
+	margin-right: 0%;
+	position: static;
+
+}
+#itemstitle {
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+}
+ /* from index.css */
+#pagemain {
+    width:100%;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+#titletext {
+    width:100%;
+    margin: 0;
+    font-size: 150px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #303030;
+}
+#border {
+    width:100%;
+    background-color: #303030;
+    text-align:center;
+    padding-top:5px;
+    margin: 0;
+}
+#pagemaintext {
+    text-align: left;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* end of index.css */
+
+/* Accordion Menu??????*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+#cssmenu a {
+  line-height: 1.3;
+}
+#cssmenu {
+  width: 50%;
+}
+#cssmenu > ul > li > a {
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #427DB8;
+  color: #ffffff;
+  border-bottom: 1px solid #07335E;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li > a > span {
+  background: #4485C7;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  color: #fff;
+}
+#cssmenu > ul > li.active > a span {
+  background: #649AD1;
+}
+#cssmenu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu ul ul li {
+  border: 1px solid #649AD1;
+  border-top: 0;
+}
+#cssmenu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #649AD1;
+  font-size: 13px;
+}
+#cssmenu ul ul a:hover {
+  color: #649AD1;
+}
+#cssmenu ul ul li.odd {
+  background: #f4f4f4;
+}
+#cssmenu ul ul li.even {
+  background: #fff;
+}
+

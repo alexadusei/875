@@ -1,0 +1,56 @@
+[
+    {"name": "Coffee (Small) : $1.33", "price": 1.33,"category": "drinks"},
+    {"name": "Coffee (Medium) : $1.52", "price": 1.52,"category": "drinks"},
+    {"name": "Coffee (Large) : $1.71", "price": 1.71,"category": "drinks"},
+    {"name": "Coffee (X-Large) : $1.90", "price": 1.90,"category": "drinks"},
+    
+    {"name": "French Vanilla (Small) : $1.74", "price": 1.74,"category": "drinks"},
+    {"name": "French Vanilla (Medium) : $2.05", "price": 2.05,"category": "drinks"},
+    {"name": "French Vanilla (Large) : $2.35", "price": 2.35,"category": "drinks"},
+    {"name": "French Vanilla (X-Large) : $2.59", "price": 2.59,"category": "drinks"},
+    
+    {"name": "Hot Chocolate (Small) : $1.43", "price": 1.43,"category": "drinks"},
+    {"name": "Hot Chocolate (Medium) : $1.67", "price": 1.67,"category": "drinks"},
+    {"name": "Hot Chocolate (Large) : $1.92", "price": 1.92,"category": "drinks"},
+    {"name": "Hot Chocolate (X-Large) : $2.11", "price": 2.11,"category": "drinks"},
+    
+    {"name": "Café Mocha (Small) : $1.99", "price": 1.99,"category": "drinks"},
+    {"name": "Café Mocha (Medium) : $2.36", "price": 2.36,"category": "drinks"},
+    {"name": "Café Mocha (Large) : $2.54", "price": 2.54,"category": "drinks"},
+    {"name": "Café Mocha (X-Large) : $2.86", "price": 2.86,"category": "drinks"},
+    
+    {"name": "Iced Capp (Small) : $1.89", "price": 1.89,"category": "cold_drinks"},
+    {"name": "Iced Capp (Medium) : $2.61", "price": 2.61,"category": "cold_drinks"},
+    {"name": "Iced Capp (Large) : $3.23", "price": 3.23,"category": "cold_drinks"},
+    
+    {"name": "Iced Coffee (Small) : $1.48", "price": 1.48,"category": "cold_drinks"},
+    {"name": "Iced Coffee (Medium) : $1.81", "price": 1.81,"category": "cold_drinks"},
+    {"name": "Iced Coffee (Large) : $2.13", "price": 2.13,"category": "cold_drinks"},
+    
+    {"name": "Chocolate Chill (Small) : $2.59", "price": 2.59,"category": "cold_drinks"},
+    {"name": "Chocolate Chill (Medium) : $3.39", "price": 3.39,"category": "cold_drinks"},
+    {"name": "Chocolate Chill (Large) : $3.99", "price": 3.99,"category": "cold_drinks"},
+    
+    {"name": "Vanilla Latte (Small) : $2.25", "price": 2.25,"category": "cold_drinks"},
+    {"name": "Vanilla Latte (Medium) : $2.84", "price": 2.84,"category": "cold_drinks"},
+    {"name": "Vanilla Latte (Large) : $3.54", "price": 3.54,"category": "cold_drinks"},
+    
+    {"name": "Chocolate Latte (Small) : $2.60", "price": 2.60,"category": "cold_drinks"},
+    {"name": "Chocolate Latte (Medium) : $3.19", "price": 3.19,"category": "cold_drinks"},
+    {"name": "Chocolate Latte (Large) : $3.89", "price": 3.89,"category": "cold_drinks"},
+    
+    {"name": "Turkey Sausage Sandwich : $3.29", "price": 3.29,"category": "breakfast"},
+    {"name": "Sausage Biscuit : $2.99", "price": 2.99,"category": "breakfast"},
+    {"name": "Bacon Biscuit : $2.99", "price": 2.99,"category": "breakfast"},
+    {"name": "Sausage English Muffin : $2.99", "price": 2.99,"category": "breakfast"},
+    {"name": "Bacon English Muffin : $2.99", "price": 2.99,"category": "breakfast"},
+    {"name": "Bagel BELT : $3.69", "price": 3.69,"category": "breakfast"},
+    
+    {"name": "Turkey Bacon Club : $4.99", "price": 4.99,"category": "lunch"},
+    {"name": "Extreme Italian : $4.99", "price": 4.99,"category": "lunch"},
+    {"name": "Ham & Swiss : $4.19", "price": 4.19,"category": "lunch"},
+    {"name": "BLT : $4.19", "price": 4.19,"category": "lunch"},
+    {"name": "Chicken Salad : $3.29", "price": 3.29,"category": "lunch"},
+    {"name": "Crispy Chicken : $4.99", "price": 3.29,"category": "lunch"}
+        
+  ]

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 	<meta charset="UTF-8"> 
+		<title>$8.75</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" language="Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+
+		<link rel="shortcut icon" href="http://www.campusdish.com/NR/rdonlyres/168BFC92-1464-4C02-81A7-0411CF146232/0/TimHortons_highres_transparent.png">
+
+		<meta charset='utf-8'>
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script>
+
+		( function( $ ) {
+		$( document ).ready(function() {
+		$(document).ready(function(){
+
+		$('#cssmenu > ul > li ul').each(function(index, e){
+		  var count = $(e).find('li').length;
+		  var content = '<span class=\"cnt\">' + count + '</span>';
+		  $(e).closest('li').children('a').append(content);
+		});
+		$('#cssmenu ul ul li:odd').addClass('odd');
+		$('#cssmenu ul ul li:even').addClass('even');
+		$('#cssmenu > ul > li > a').click(function() {
+		  $('#cssmenu li').removeClass('active');
+		  $(this).closest('li').addClass('active');	
+		  var checkElement = $(this).next();
+		  if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+		  	console.log("Clicking this closes the sub-menu");
+		    $(this).closest('li').removeClass('active');
+		    checkElement.slideUp('normal');
+		  }
+		  if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+		    $('#cssmenu ul ul:visible').slideUp('normal');
+		    checkElement.slideDown('normal');
+		  }
+		  if($(this).closest('li').find('ul').children().length == 0) {
+		  	checkElement.slideDown('normal');
+		    return true;
+		  } else {
+		    return false;	
+		  }		
+		});
+
+		});
+
+		});
+		} )( jQuery );
+
+		</script>
+
+	</head>
+	<body>
+
+
+
+		<div id="header">
+	
+		<div id="top">
+				<img src="images/875_header_top.png">
+		</div>
+		<div id="navigation">
+		        <a href="main.html">$8.75 PRICE CALC</a>
+		        <a href="allergeninfo.html">ALLERGEN INFO</a>
+		        <a href="about.html">ABOUT</a>
+		        <a href="faq.html">F.A.Q</a>
+		        
+		</div>
+		
+		
+
+		</div>
+
+		<div id="current_price">
+			<!-- On the left side of the page, starts at 8.75 and decreases when they pick something. Maybe button underneath saying "What else should I buy?" -->
+		</div>
+
+		<br>
+
+		<div id="total"><p id="js">$0</p>
+		</div>
+				<div id="items">
+				<div id="itemstitle">Chosen:</div>
+				<p id="list"></p>
+			
+
+
+		</div>
+
+		<div id='cssmenu'>
+		<ul id="itemList">
+		   <li class='active'><a href='#'><span>Menu</span></a></li>
+		   <li class='has-sub'><a href='#'><span>Drinks</span></a>
+		      <ul id="drinks_list">
+		      </ul>
+		   </li>
+		   <li class='has-sub'><a href='#'><span>Sandwiches</span></a>
+		      <ul id="sandwiches_list">
+		      </ul>
+		   </li>
+		   <li class='has-sub'><a href='#'><span>Breakfast Food</span></a>
+		   		<ul id="breakfast_list">
+
+		   		</ul>
+		   	</li>
+		</ul>
+
+
+		</div>
+
+		<br>
+
+	</body>
+
+</html>
