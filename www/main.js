@@ -9,7 +9,7 @@
 	function menuPrices(selected) {
 			price = parseFloat(selected.price);
 			if (total + price > 8.75) {
-				var warning= confirm("If you add this you will go over 8.75! OK to continue");
+				var warning= confirm("If you add this you will go over 8.75! Click 'OK' to continue");
 				if(warning === false) {
 					total = total;
 				}
